@@ -36,7 +36,7 @@
 
     computed: {
       clazz() {
-        let clazz = 'svg-icon'
+        let clazz = ''
 
         if (this.fill) {
           clazz += ' svg-fill'
